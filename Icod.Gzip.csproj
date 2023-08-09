@@ -4,6 +4,8 @@
         Copyright (C) 2023 Timothy J. Bruce
     -->
 	<PropertyGroup>
+		<RootNamespace>Icod.Gzip</RootNamespace>
+		<AssemblyName>Gzip</AssemblyName>
 		<OutputType>Exe</OutputType>
 		<TargetFramework>net7.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
