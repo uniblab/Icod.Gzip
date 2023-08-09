@@ -39,18 +39,10 @@ namespace Icod.Gzip {
 				return 1;
 			}
 			System.String inputPathName = args[ 0 ];
-			if (
-				( "--help" == inputPathName )
-				|| ( "-h" == inputPathName )
-				|| ( "/help" == inputPathName )
-			) {
+			if ( new System.String[] { "--help", "-h", "/h" }.Contains( inputPathName, System.StringComparer.OrdinalIgnoreCase ) ) {
 				PrintUsage();
 				return 1;
-			} else if (
-				( "--copyright" == inputPathName )
-				|| ( "-c" == inputPathName )
-				|| ( "/c" == inputPathName )
-			) {
+			} else if ( new System.String[] { "--copyright", "-c", "/c" }.Contains( inputPathName, System.StringComparer.OrdinalIgnoreCase ) ) {
 				PrintCopyright();
 				return 1;
 			}
