@@ -20,7 +20,7 @@ using static System.Net.WebRequestMethods;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Xml.Linq;
 
-namespace Icod.Gzip.src {
+namespace Icod.Gzip {
 
 	public static class Program {
 
