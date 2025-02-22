@@ -1,5 +1,5 @@
 ﻿// Gzip.exe compresses files using the Gzip compression algorithm.
-// Copyright( C ) 2023 Timothy J. Bruce
+// Copyright( C ) 2025 Timothy J. Bruce
 
 /*
     This program is free software: you can redistribute it and/or modify
@@ -97,7 +97,7 @@ namespace Icod.Gzip {
 			var copy = new System.String[] {
 				"Gzip.exe compresses files using the Gzip compression algorithm.",
 				"",
-				"Copyright( C ) 2023 Timothy J. Bruce",
+				"Copyright( C ) 2025 Timothy J. Bruce",
 				"",
 				"This program is free software: you can redistribute it and / or modify",
 				"it under the terms of the GNU General Public License as published by",
